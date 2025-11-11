@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2024-01-01T00:00:00Z",
+    "vehicle_id": "TRUCK_1",
+    "event_type": "trip_started",
+    "location": { "lat": 40.7128, "lng": -74.006 }
+  },
+  {
+    "timestamp": "2024-01-01T04:00:00Z",
+    "vehicle_id": "TRUCK_1",
+    "event_type": "en_route",
+    "location": { "lat": 39.9526, "lng": -75.1652 }
+  },
+  {
+    "timestamp": "2024-01-01T08:00:00Z",
+    "vehicle_id": "TRUCK_1",
+    "event_type": "trip_completed",
+    "location": { "lat": 38.9072, "lng": -77.0369 }
+  }
+]
