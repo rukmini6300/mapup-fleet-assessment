@@ -2,11 +2,14 @@
   "name": "mapup-fleet-dashboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rukmini6300/mapup-fleet-assessment",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
